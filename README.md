@@ -2,5 +2,5 @@
  the official coderun 5 website
 # configuration
  npm install
-# to run the project
+# running the project
  npm run serve
