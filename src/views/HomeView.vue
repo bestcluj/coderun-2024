@@ -29,7 +29,7 @@
       </v-row>
       <!--    sectiune video-->
 
-      <v-row class="mt-lg-16">
+      <v-row class="mt-lg-16 pb-12">
         <v-col class="columns-video ma-2" cols="7">
           <v-card outlined dark class="pa-6 elevation-5 ml-lg-4" color="#e6acce" min-width="40rem" min-height="30rem"
                   style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
@@ -152,8 +152,8 @@ import footerComp from "@/components/footer-comp.vue";
 .homepage-bg{
   /*background-image: url("../assets/background.svg");*/
   background-image: url("../assets/fundal_2.png");
-  height:100%;
-  width:100%;
+  /*height:100%;*/
+  /*width:100%;*/
   background-size: cover;
   background-position: center;
   display:block;

@@ -30,7 +30,7 @@
         {{ new Date().getFullYear() }} — <strong>CodeRun</strong>
       </v-col>
     </v-row>
-    
+
   </v-footer>
 </template>
 
