@@ -125,22 +125,26 @@
       </v-col>
     </v-row>
 
+    <footer-comp />
+
   </v-container>
 
 </template>
 
 <script>
-
 import NavBar from "../components/nav-bar.vue";
+import footerComp from "@/components/footer-comp.vue";
 
   export default {
     name: 'Home-View',
 
     components: {
-      NavBar
+      NavBar,
+      footerComp
     },
   }
 </script>
+
 /*eslint-disable */
 
 <style>
