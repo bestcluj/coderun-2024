@@ -43,5 +43,6 @@ name: "footer-comp"
 <style scoped>
 .footer{
   background-color: #e6acce;
+  /*margin-bottom:0 !important;*/
 }
 </style>

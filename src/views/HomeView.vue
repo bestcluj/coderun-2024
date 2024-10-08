@@ -1,8 +1,9 @@
 <template>
-  <v-container class="ma-0 pa-0 main-cnt" fluid style="height:100%; width:100%;">
+  <v-container class="ma-0 pa-0 main-cnt" fluid>
+    <NavBar />
     <v-row class="homepage-bg mt-lg-14" style="padding: 0; margin:0;">
       <!--    navigation bar-->
-      <NavBar />
+<!--      <NavBar />-->
       <!--    first block of content-->
       <v-row class="ma-0">
         <v-col class="font columns" align-self="center" style="margin-top: 5rem;">
@@ -46,8 +47,6 @@
 
       </v-row>
     </v-row>
-
-
 
 <!--    sectiune FAQ-->
 
@@ -154,45 +153,25 @@ import footerComp from "@/components/footer-comp.vue";
 <style>
 
 .homepage-bg{
-  /*background-image: url("../assets/background.svg");*/
   background-image: url("../assets/fundal_2.png");
-  /*height:100%;*/
-  /*width:100%;*/
   background-size: cover;
   background-position: center;
   display:block;
   max-width: 100%;
   max-height: 100%;
-  /*background-repeat: no-repeat;*/
-  /*-webkit-background-origin:border;*/
 }
 
-/*.register-btn.v-card.v-sheet{*/
-/*  outline:30px #ffffff;*/
-/*}*/
-
-/*.v-card--link:before{*/
-/*  border-radius:20px !important;*/
-/*}*/
-
-
-
 .main-cnt{
-  /*height:100%;*/
-  /*width:100%;*/
   background-size: cover;
   background-position: center;
   display:block;
-  /*max-width: 100%;*/
-  /*max-height: 100%;*/
 }
 
 .section-2{
-  background-color:#5bc5be;
+  background-color: #5bc5be;
 }
 
 .columns{
-  /*margin-top: 5rem;*/
   margin-right:0 !important;
   margin-bottom: 0;
   text-align: center;
@@ -205,15 +184,9 @@ import footerComp from "@/components/footer-comp.vue";
 }
 
 .columns-video{
-  /*margin: 5rem;*/
   margin-top: 0;
   text-align: center;
   font-size: xx-large;
-  /*align-content:center;*/
-  /*justify-content: center;*/
-  /*align-items:center;*/
-  /*justify-items: center;*/
-  /*display:flex;*/
 }
 
 .font{
@@ -231,10 +204,6 @@ import footerComp from "@/components/footer-comp.vue";
   font-family: "josefin sans";
   font-size: xx-large;
   color:#ffffff;
-}
-
-.theme--dark.v-sheet--outlined {
-  /*border: 20px solid #ffffff;*/
 }
 
 </style>
