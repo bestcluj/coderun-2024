@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar class="navigation" absolute fixed floating flat color="#1b2653">
+  <v-app-bar class="navigation" absolute floating flat color="#1b2653">
     <v-app-bar-title>
       <router-link to="/" class="white--text links">
         code.run

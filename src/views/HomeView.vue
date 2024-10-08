@@ -4,13 +4,13 @@
       <!--    navigation bar-->
       <NavBar />
       <!--    first block of content-->
-      <v-row>
-        <v-col class="font columns" align-self="center">
+      <v-row class="ma-0">
+        <v-col class="font columns" align-self="center" style="margin-top: 5rem;">
           <h1>IT MARATHON</h1>
         </v-col>
       </v-row>
       <v-row>
-        <v-col align-self="center" class="columns ma-10">
+        <v-col align-self="center" class="columns ma-lg-8 ma-sm-0 pa-0">
           <v-img src="../assets/coderun.svg" max-height="70%" max-width="70%" style="object-position: center" ></v-img>
         </v-col>
       </v-row>
@@ -19,26 +19,30 @@
           <h1>DATA FRUMOASA</h1>
         </v-col>
       </v-row>
+
       <!--    register button-->
-      <v-row style="display: flex; align-items: center; justify-items: center">
+      <v-row justify="center">
         <v-col class="font columns ma-3">
-          <v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94" min-width="40rem"
+          <v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
                   style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
             REGISTER HERE</v-card>
         </v-col>
       </v-row>
       <!--    sectiune video-->
 
-      <v-row class="mt-lg-16 pb-12">
+      <v-row justify="center" class="mt-lg-16 pb-12">
         <v-col class="columns-video ma-2" cols="7">
-          <v-card outlined dark class="pa-6 elevation-5 ml-lg-4" color="#e6acce" min-width="40rem" min-height="30rem"
+          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce"
                   style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
             video frumos</v-card>
         </v-col>
-        <v-col class="columns-video ma-2 ml-10" cols="2">
-          <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94" min-width="40rem" min-height="30rem"
-                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
-            descriere sucara</v-card></v-col>
+<!--        <v-col class="columns-video ma-2 ml-10" cols="2">-->
+<!--          <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"-->
+<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">-->
+<!--            <v-card-title>-->
+<!--              descriere sucara-->
+<!--            </v-card-title>-->
+<!--            </v-card></v-col>-->
 
       </v-row>
     </v-row>
@@ -71,7 +75,7 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-ans ma-4">
-        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94" min-width="40rem"
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
           oumaigad este un MARATON!!!! de IT</v-card>
       </v-col>
@@ -95,7 +99,7 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-ans ma-4">
-        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94" min-width="40rem"
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
           DOAR OAMENI COOL</v-card>
       </v-col>
@@ -119,7 +123,7 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-ans ma-4">
-        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94" min-width="40rem"
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
           OIL UP BBYGIRL</v-card>
       </v-col>
@@ -188,10 +192,11 @@ import footerComp from "@/components/footer-comp.vue";
 }
 
 .columns{
-  margin: 5rem;
+  /*margin-top: 5rem;*/
+  margin-right:0 !important;
   margin-bottom: 0;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
   align-content:center;
   justify-content: center;
   align-items:center;
