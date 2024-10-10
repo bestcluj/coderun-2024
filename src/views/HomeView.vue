@@ -114,7 +114,12 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-ans ml-lg-4">
-        descriere mai micuta al carui scop imi este necunoscut momentan
+        descriere mai micuta al carui scop imi este necunoscut momenta Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.n
       </v-col>
     </v-row>
 
@@ -172,6 +177,11 @@ import footerComp from "@/components/footer-comp.vue";
 
 .section-2{
   background-color: #5bc5be;
+  justify-content: center;
+}
+
+.section-2 > .col {
+	max-width: 50rem;
 }
 
 .columns{
