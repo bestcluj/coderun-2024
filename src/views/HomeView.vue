@@ -12,7 +12,7 @@
       </v-row>
       <v-row>
         <v-col align-self="center" class="columns ma-lg-8 ma-sm-0 pa-0">
-          <v-img src="../assets/coderun.svg" max-height="70%" max-width="70%" style="object-position: center" ></v-img>
+		<v-img src="../assets/coderun.svg" aspect-ratio="8.136" max-height="70%" max-width="70%" style="object-position: center" ></v-img> <!-- Aspect ratio computed manally from SVG viewBox dimensions so it renders properly on all browsers -->
         </v-col>
       </v-row>
       <v-row>
