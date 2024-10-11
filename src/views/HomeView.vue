@@ -7,17 +7,22 @@
       <!--    first block of content-->
       <v-row class="ma-0">
         <v-col class="font columns" align-self="center" style="margin-top: 5rem;">
-          <h1>IT MARATHON</h1>
+          <h1>Ready to code your way through the urban jungle?</h1>
         </v-col>
       </v-row>
       <v-row>
         <v-col align-self="center" class="columns ma-lg-8 ma-sm-0 pa-0">
-          <v-img src="../assets/coderun.svg" max-height="70%" max-width="70%" style="object-position: center" ></v-img>
+          <v-img class="img-responsive" src="../assets/crstrokemic.png" max-height="70%" max-width="70%" style="object-position: center" ></v-img>
         </v-col>
       </v-row>
       <v-row>
         <v-col class="font columns ma-3" align-self="center">
-          <h1>DATA FRUMOASA</h1>
+          <h4>November 4-17, 2024</h4>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col class="font columns ma-3" align-self="center">
+          <h4>Pre-register now.</h4>
         </v-col>
       </v-row>
 
@@ -29,21 +34,31 @@
             REGISTER HERE</v-card>
         </v-col>
       </v-row>
+
+<!--      <v-row>-->
+<!--        <v-col class="font-2 columns ma-3" align-self="center">-->
+<!--          <h3>12 days of trainings and workshops delivered by the best IT companies in Cluj,-->
+<!--            2 competition days filled with fun challenges...<br />-->
+<!--            ...and the chance to become a winner!-->
+<!--          </h3>-->
+<!--        </v-col>-->
+<!--      </v-row>-->
+
       <!--    sectiune video-->
 
       <v-row justify="center" class="mt-lg-16 pb-12">
-        <v-col class="columns-video ma-2" cols="7">
-          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce"
+        <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">
+          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="15em"
                   style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
             video frumos</v-card>
         </v-col>
-<!--        <v-col class="columns-video ma-2 ml-10" cols="2">-->
-<!--          <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"-->
-<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">-->
-<!--            <v-card-title>-->
-<!--              descriere sucara-->
-<!--            </v-card-title>-->
-<!--            </v-card></v-col>-->
+        <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">
+          <v-card outlined dark class="pa-6 elevation-5 font-2" color="#5d3d94" height="15em"
+                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px;">
+            <h5>12 days of trainings and workshops delivered by the best IT companies in Cluj,
+              2 competition days filled with fun challenges...<br />
+              ...and the chance to become a winner!</h5>
+            </v-card></v-col>
 
       </v-row>
     </v-row>
@@ -51,8 +66,10 @@
 <!--    sectiune FAQ-->
 
     <v-row class="section-2 ma-0">
-      <v-col class="font-faq ma-4">
-        FREQUENTLY ASKED QUESTIONS
+      <v-col lg="6" sm="10" class="ma-4" style="font-family: 'Radio Stars';">
+        <v-card outlined dark class="pa-4 elevation-5" color="#1b2653"
+                style="border-color: #ffffff; border-bottom-width: 1rem; border-top-width: .5rem;border-right-width: .5rem;border-left-width: .5rem; border-radius:20px">
+        <h1>FREQUENTLY ASKED QUESTIONS</h1></v-card>
       </v-col>
     </v-row>
 
@@ -60,15 +77,14 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-faq ma-4">
-        #1 CE ESTE CODERUN?
+        #1 WHAT IS CODERUN?
       </v-col>
     </v-row>
 
-    <v-row class="section-2 ma-0">
-      <v-col class="font-ans ml-lg-4">
-        descriere mai micuta al carui scop imi este necunoscut momentan
-      </v-col>
-    </v-row>
+<!--    <v-row class="section-2 ma-0">-->
+<!--      <v-col class="font-ans ml-lg-4">-->
+<!--        </v-col>-->
+<!--    </v-row>-->
 
 <!--    A1-->
 
@@ -76,7 +92,8 @@
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-          oumaigad este un MARATON!!!! de IT</v-card>
+          CodeRun is an IT marathon for students who want to test and develop their programming skills, in which participants progress through
+          checkpoints located at our partner companies’ headquarters by using their problem solving skills.</v-card>
       </v-col>
     </v-row>
 
@@ -84,13 +101,7 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-faq ma-4">
-        #2 CINE E IN CT??????
-      </v-col>
-    </v-row>
-
-    <v-row class="section-2 ma-0">
-      <v-col class="font-ans ml-lg-4">
-        descriere mai micuta al carui scop imi este necunoscut momentan
+        #2 WHEN AND WHERE DOES CODERUN TAKE PLACE?
       </v-col>
     </v-row>
 
@@ -100,7 +111,7 @@
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-          DOAR OAMENI COOL</v-card>
+          November 4-17, 2024, in Cluj-Napoca.</v-card>
       </v-col>
     </v-row>
 
@@ -108,13 +119,7 @@
 
     <v-row class="section-2 ma-0">
       <v-col class="font-faq ma-4">
-        #3 A DOUA INTREBARE
-      </v-col>
-    </v-row>
-
-    <v-row class="section-2 ma-0">
-      <v-col class="font-ans ml-lg-4">
-        descriere mai micuta al carui scop imi este necunoscut momentan
+        #3 HOW DOES CODERUN WORK?
       </v-col>
     </v-row>
 
@@ -124,7 +129,139 @@
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-          OIL UP BBYGIRL</v-card>
+          The event is divided into two parts: from November 4-15, there will be online or hybrid training sessions delivered by representatives from
+          partner companies, in order to prepare participants for the upcoming challenges. Then, on November 16-17, the actual competition will take place,
+          in which participants will have to reach various checkpoints and solve challenges of two
+          levels of difficulty: easy and hard. There will be a maximum of 3 checkpoints each day, and each one will take about 2 hours to conquer.</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q4-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #4 WHAT LEVEL OF PROGRAMMING EXPERIENCE DO I NEED TO PARTICIPATE?
+      </v-col>
+    </v-row>
+
+    <!--    A4-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          Basic knowledge of any programming language is sufficient, and prior experience is not required!
+          You will have the opportunity to deepen your existing knowledge or learn new things during the training sessions.</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q5-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #5 WHO WILL JUDGE THE COMPETITION?
+      </v-col>
+    </v-row>
+
+    <!--    A5-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          The jury will consist of representatives from partner companies, a professor from the Technical University of Cluj-Napoca
+          and a professor from the Babeș-Bolyai University.</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q6-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #6 WHO CAN REGISTER FOR CODERUN?
+      </v-col>
+    </v-row>
+
+    <!--    A6-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          Any student, regardless of their field of study, can participate. Registration can be done individually or in teams of up to 3 students.</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q7-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #7 IF I'M UNDECIDED ABOUT SIGNING UP BY MYSELF, CAN I FIND A TEAM LATER??
+      </v-col>
+    </v-row>
+
+    <!--    A7-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          Yes, you can sign up with a team until the last registration day (on November 1st). After the registration period closes, you can only find or
+          join a team with other participants of the event, during the training period - it’s actually encouraged!</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q8-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #8 CAN I PARTICIPATE AS A HIGH SCHOOL STUDENT?
+      </v-col>
+    </v-row>
+
+    <!--    A8-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          No, unfortunately CodeRun is aimed only at university students. However, we can’t wait to meet you during your freshman year!</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q9-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #9 WILL ATTENDING CODERUN HELP MY CAREER?
+      </v-col>
+    </v-row>
+
+    <!--    A9-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          Yes, you will have the opportunity to discuss and come into contact with IT company representatives in Cluj.</v-card>
+      </v-col>
+    </v-row>
+
+    <!--    Q10-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-faq ma-4">
+        #10 HOW CAN I REGISTER?
+      </v-col>
+    </v-row>
+
+    <!--    A10-->
+
+    <v-row class="section-2 ma-0">
+      <v-col class="font-ans ma-4">
+        <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
+                style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
+          Keep an eye on our website or BEST Cluj-Napoca’s Instagram page (@best_clujnapoca). Registrations will open soon!</v-card>
       </v-col>
     </v-row>
 
@@ -175,7 +312,7 @@ import footerComp from "@/components/footer-comp.vue";
   margin-right:0 !important;
   margin-bottom: 0;
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   align-content:center;
   justify-content: center;
   align-items:center;
@@ -189,6 +326,18 @@ import footerComp from "@/components/footer-comp.vue";
   font-size: xx-large;
 }
 
+@media only screen and (max-width: 431px){
+  .columns{
+    font-size: large;
+  }
+
+  .img-responsive{
+    height: 100%;
+    width:100%;
+  }
+
+}
+
 .font{
   font-family: "radio stars";
   color:#ffffff;
@@ -198,6 +347,11 @@ import footerComp from "@/components/footer-comp.vue";
   font-family: "radio stars";
   font-size: xx-large;
   color: #cd55a0;
+}
+
+.font-2{
+  font-family: "josefin sans";
+  color: white;
 }
 
 .font-ans{
