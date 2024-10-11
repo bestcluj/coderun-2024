@@ -21,6 +21,7 @@
         </v-col>
       </v-row>
       <v-row>
+
         <v-col class="font columns ma-3" align-self="center">
           <h4>Pre-register now.</h4>
         </v-col>
@@ -29,9 +30,9 @@
       <!--    register button-->
       <v-row justify="center">
         <v-col class="font columns ma-3">
-          <v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
+          <a href="https://forms.gle/6AAK24Tbv6FsPzTR8" style="text-decoration: none" target="_none"><v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
                   style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-            REGISTER HERE</v-card>
+            REGISTER HERE</v-card></a>
         </v-col>
       </v-row>
 
