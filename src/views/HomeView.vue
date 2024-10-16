@@ -306,7 +306,7 @@ import footerComp from "@/components/footer-comp.vue";
 }
 
 .section-2{
-  background-color: #5bc5be;
+  background-color: #35447f;
 }
 
 .columns{
