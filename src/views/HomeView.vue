@@ -56,36 +56,18 @@
 
       <!--    sectiune video-->
 
-<!--      <v-row justify="center" class="mt-lg-16 pb-12">-->
-<!--        <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">-->
-<!--          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="14em"-->
-<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">-->
-<!--            <video loop autoplay muted style="height:100%; width:100%;border-color: #ffffff; border-width: 1rem; border-radius:20px;">-->
-<!--              <source src="../assets/videocr3.mp4" type="video/mp4"></video>-->
-<!--          </v-card>-->
 
-<!--        </v-col>-->
-<!--        <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">-->
-<!--          <v-card outlined dark class="pa-6 elevation-5 font-2" color="#5d3d94" height="14em"-->
-<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px;">-->
-<!--            <h5>12 days of trainings and workshops delivered by the best IT companies in Cluj,-->
-<!--              2 competition days filled with fun challenges...<br />-->
-<!--              ...and the chance to become a winner!</h5>-->
-<!--            </v-card></v-col>-->
-
-<!--      </v-row>-->
-
-      <v-row justify="center" class="mt-lg-16 pb-12">
+      <v-row justify="center" class="mt-lg-16 pb-12 responsive-video">
         <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">
-          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="15em"
+          <v-card outlined dark class="pa-6 elevation-5 responsive-card" color="#e6acce" height="15em"
                   style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
             <video loop autoplay muted style="height:100%; width:100%;border-color: #ffffff; border-width: 1rem; border-radius:20px;">
               <source src="../assets/videocr3.mp4" type="video/mp4"></video>
           </v-card>
         </v-col>
         <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">
-          <v-card outlined dark class="pa-6 elevation-5 font-2" color="#5d3d94" height="15em"
-                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px;">
+          <v-card outlined dark class="pa-6 elevation-5 font-2 resp-card-2" color="#5d3d94" height="15em"
+                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; display:flex; align-items: center; justify-items: center">
             <h5>12 days of trainings and workshops delivered by the best IT companies in Cluj,
               2 competition days filled with fun challenges...<br />
               ...and the chance to become a winner!</h5>
@@ -368,6 +350,26 @@ import footerComp from "@/components/footer-comp.vue";
     width:100%;
   }
 
+  .responsive-video{
+    display:block;
+  }
+
+  .responsive-card{
+    height:8em !important;
+    width: 13em !important;
+  }
+
+  .resp-card-2{
+    width:13em !important;
+    height: 13em !important;
+  }
+
+}
+
+@media only screen and(min-width: 432px){
+  .responsive-video{
+    /*display:none*/
+  }
 }
 
 .font{
