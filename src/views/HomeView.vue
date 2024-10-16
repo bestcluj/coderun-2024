@@ -56,13 +56,32 @@
 
       <!--    sectiune video-->
 
+<!--      <v-row justify="center" class="mt-lg-16 pb-12">-->
+<!--        <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">-->
+<!--          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="14em"-->
+<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">-->
+<!--            <video loop autoplay muted style="height:100%; width:100%;border-color: #ffffff; border-width: 1rem; border-radius:20px;">-->
+<!--              <source src="../assets/videocr3.mp4" type="video/mp4"></video>-->
+<!--          </v-card>-->
+
+<!--        </v-col>-->
+<!--        <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">-->
+<!--          <v-card outlined dark class="pa-6 elevation-5 font-2" color="#5d3d94" height="14em"-->
+<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px;">-->
+<!--            <h5>12 days of trainings and workshops delivered by the best IT companies in Cluj,-->
+<!--              2 competition days filled with fun challenges...<br />-->
+<!--              ...and the chance to become a winner!</h5>-->
+<!--            </v-card></v-col>-->
+
+<!--      </v-row>-->
+
       <v-row justify="center" class="mt-lg-16 pb-12">
         <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">
-<!--          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="15em"-->
-<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">-->
-<!--            video frumos</v-card>-->
-          <video style="height:15em; width:20em;border-color: #ffffff; border-width: 1rem; border-radius:20px;">
-            <source src="../assets/videocr3.mp4"></video>
+          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="15em"
+                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
+            <video loop autoplay muted style="height:100%; width:100%;border-color: #ffffff; border-width: 1rem; border-radius:20px;">
+              <source src="../assets/videocr3.mp4" type="video/mp4"></video>
+          </v-card>
         </v-col>
         <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">
           <v-card outlined dark class="pa-6 elevation-5 font-2" color="#5d3d94" height="15em"
@@ -70,9 +89,10 @@
             <h5>12 days of trainings and workshops delivered by the best IT companies in Cluj,
               2 competition days filled with fun challenges...<br />
               ...and the chance to become a winner!</h5>
-            </v-card></v-col>
+          </v-card></v-col>
 
       </v-row>
+
     </v-row>
 
 <!--    sectiune FAQ-->
