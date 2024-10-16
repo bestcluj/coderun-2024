@@ -5,8 +5,16 @@
       <!--    navigation bar-->
 <!--      <NavBar />-->
       <!--    first block of content-->
+      <v-row class="ma-4 mb-0">
+        <v-col cols="6">
+          <v-img src="../assets/BESTCJ_signature_white (1).png" style="height:50%; width:50%;"></v-img>
+        </v-col>
+        <v-col cols="6">
+          <v-img src="../assets/UT_Logo_Alb.png" style="height:50%; width:50%;"></v-img>
+        </v-col>
+      </v-row>
       <v-row class="ma-0">
-        <v-col class="font columns" align-self="center" style="margin-top: 5rem;">
+        <v-col class="font columns" align-self="center" style="margin-top: 2rem;">
           <h1>Ready to code your way through the urban jungle?</h1>
         </v-col>
       </v-row>
@@ -50,9 +58,11 @@
 
       <v-row justify="center" class="mt-lg-16 pb-12">
         <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">
-          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="15em"
-                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
-            video frumos</v-card>
+<!--          <v-card outlined dark class="pa-6 elevation-5" color="#e6acce" height="15em"-->
+<!--                  style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">-->
+<!--            video frumos</v-card>-->
+          <video style="height:15em; width:20em;border-color: #ffffff; border-width: 1rem; border-radius:20px;">
+            <source src="../assets/videocr3.mp4"></video>
         </v-col>
         <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">
           <v-card outlined dark class="pa-6 elevation-5 font-2" color="#5d3d94" height="15em"
