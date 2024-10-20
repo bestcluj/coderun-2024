@@ -407,4 +407,8 @@ import footerComp from "@/components/footer-comp.vue";
   max-width: 100%;  /* Limits logos to .col container. At very small widths, prevents the logos from overlapping. */
 }
 
+.row {
+  margin: unset; /* no-gutters by default */
+}
+
 </style>
