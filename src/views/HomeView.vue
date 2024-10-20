@@ -1,26 +1,26 @@
 <template>
   <v-container class="ma-0 pa-0 main-cnt" fluid>
     <NavBar />
-    <v-row class="homepage-bg mt-lg-14" style="padding: 0; margin:0;">
+    <v-row class="homepage-bg">
       <!--    navigation bar-->
 <!--      <NavBar />-->
       <!--    first block of content-->
-      <v-row class="ma-4 mb-0">
+      <v-row class='top-logos'>
         <v-col cols="6">
-          <v-img src="../assets/BESTCJ_signature_white (1).png" style="height:50%; width:50%;"></v-img>
+          <img src="../assets/BESTCJ_signature_white.png" />
         </v-col>
         <v-col cols="6">
-          <v-img src="../assets/UT_Logo_Alb.png" style="height:50%; width:50%;"></v-img>
+          <img src="../assets/UT_Logo_Alb.png" />
         </v-col>
       </v-row>
       <v-row class="ma-0">
-        <v-col class="font columns" align-self="center" style="margin-top: 2rem;">
+        <v-col class="font columns" align-self="center">
           <h1>Ready to code your way through the urban jungle?</h1>
         </v-col>
       </v-row>
       <v-row>
         <v-col align-self="center" class="columns ma-lg-8 ma-sm-0 pa-0">
-          <v-img class="img-responsive" src="../assets/crstrokemic.png" aspect-ratio="8.136" max-height="70%" max-width="70%" style="object-position: center" ></v-img>
+          <v-img class="img-responsive" src="../assets/crstrokemic.png" max-height="70%" max-width="70%" style="object-position: center; background-size: contain;" ></v-img>
           <!-- Aspect ratio computed manally from SVG viewBox dimensions so it renders properly on all browsers -->
         </v-col>
       </v-row>
@@ -57,16 +57,16 @@
       <!--    sectiune video-->
 
 
-      <v-row justify="center" class="mt-lg-16 pb-12 responsive-video">
-        <v-col class="columns-video ma-1 mr-lg-4" lg="5" sm="12">
-          <v-card outlined dark class="pa-6 elevation-5 responsive-card" color="#e6acce" height="15em"
+      <v-row justify="center" align="center" class="mt-lg-16 pb-12 responsive-video">
+        <v-col class="columns-video mr-lg-4" md="5" cols="12">
+          <v-card outlined dark class="pa-6 elevation-5 responsive-card" color="#e6acce"
                   style="border-color: #ffffff; border-width: 1rem; border-radius:20px; font-family: radio stars;">
             <video loop autoplay muted style="height:100%; width:100%;border-color: #ffffff; border-width: 1rem; border-radius:20px;">
               <source src="../assets/videocr3.mp4" type="video/mp4"></video>
           </v-card>
         </v-col>
-        <v-col class="columns-video ma-1 ml-lg-4" lg="3" sm="12">
-          <v-card outlined dark class="pa-6 elevation-5 font-2 resp-card-2" color="#5d3d94" height="15em"
+        <v-col class="columns-video ml-lg-4" md="3" cols="12">
+          <v-card outlined dark class="pa-6 elevation-5 font-2 resp-card-2" color="#5d3d94"
                   style="border-color: #ffffff; border-width: 1rem; border-radius:20px; display:flex; align-items: center; justify-items: center">
             <h5>12 days of trainings and workshops delivered by the best IT companies in Cluj,
               2 competition days filled with fun challenges...<br />
@@ -79,30 +79,29 @@
 
 <!--    sectiune FAQ-->
 
-    <v-row class="section-2 ma-0">
-      <v-col lg="6" sm="10" class="ma-4" style="font-family: 'Radio Stars';">
+    <v-row class="section-2 pa-4" style="font-family: 'Radio Stars';">
         <v-card outlined dark class="pa-4 elevation-5" color="#1b2653"
                 style="border-color: #ffffff; border-bottom-width: 1rem; border-top-width: .5rem;border-right-width: .5rem;border-left-width: .5rem; border-radius:20px">
-        <h1>FREQUENTLY ASKED QUESTIONS</h1></v-card>
-      </v-col>
+          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        </v-card>
     </v-row>
 
 <!--    Q1-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #1 WHAT IS CODERUN?
       </v-col>
     </v-row>
 
-<!--    <v-row class="section-2 ma-0">-->
+<!--    <v-row class="section-2">-->
 <!--      <v-col class="font-ans ml-lg-4">-->
 <!--        </v-col>-->
 <!--    </v-row>-->
 
 <!--    A1-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -113,7 +112,7 @@
 
     <!--    Q2-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #2 WHEN AND WHERE DOES CODERUN TAKE PLACE?
       </v-col>
@@ -121,7 +120,7 @@
 
     <!--    A2-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -131,7 +130,7 @@
 
     <!--    Q3-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #3 HOW DOES CODERUN WORK?
       </v-col>
@@ -139,7 +138,7 @@
 
     <!--    A3-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -152,7 +151,7 @@
 
     <!--    Q4-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #4 WHAT LEVEL OF PROGRAMMING EXPERIENCE DO I NEED TO PARTICIPATE?
       </v-col>
@@ -160,7 +159,7 @@
 
     <!--    A4-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -171,7 +170,7 @@
 
     <!--    Q5-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #5 WHO WILL JUDGE THE COMPETITION?
       </v-col>
@@ -179,7 +178,7 @@
 
     <!--    A5-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -190,7 +189,7 @@
 
     <!--    Q6-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #6 WHO CAN REGISTER FOR CODERUN?
       </v-col>
@@ -198,7 +197,7 @@
 
     <!--    A6-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -208,7 +207,7 @@
 
     <!--    Q7-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #7 IF I'M UNDECIDED ABOUT SIGNING UP BY MYSELF, CAN I FIND A TEAM LATER??
       </v-col>
@@ -216,7 +215,7 @@
 
     <!--    A7-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -227,7 +226,7 @@
 
     <!--    Q8-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #8 CAN I PARTICIPATE AS A HIGH SCHOOL STUDENT?
       </v-col>
@@ -235,7 +234,7 @@
 
     <!--    A8-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -245,7 +244,7 @@
 
     <!--    Q9-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #9 WILL ATTENDING CODERUN HELP MY CAREER?
       </v-col>
@@ -253,7 +252,7 @@
 
     <!--    A9-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -263,7 +262,7 @@
 
     <!--    Q10-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-faq ma-4">
         #10 HOW CAN I REGISTER?
       </v-col>
@@ -271,7 +270,7 @@
 
     <!--    A10-->
 
-    <v-row class="section-2 ma-0">
+    <v-row class="section-2">
       <v-col class="font-ans ma-4">
         <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                 style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
@@ -295,13 +294,16 @@ import footerComp from "@/components/footer-comp.vue";
     components: {
       NavBar,
       footerComp
-    },
+    }
   }
 </script>
 
 /*eslint-disable */
 
 <style>
+
+@import url('https://fonts.cdnfonts.com/css/radio-stars');
+@import url('https://fonts.cdnfonts.com/css/josefin-sans');
 
 .homepage-bg{
   background-image: url("../assets/fundal_2.png");
@@ -318,59 +320,40 @@ import footerComp from "@/components/footer-comp.vue";
   display:block;
 }
 
-.section-2{
+.section-2.row {
   background-color: #35447f;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.section-2 > .col {
+  max-width: 40rem;
 }
 
 .columns{
   margin-right:0 !important;
   margin-bottom: 0;
   text-align: center;
-  font-size: xx-large;
   align-content:center;
   justify-content: center;
   align-items:center;
   justify-items: center;
   display:flex;
+  font-size: x-large;
 }
 
 .columns-video{
   margin-top: 0;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
-@media only screen and (max-width: 431px){
-  .columns{
-    font-size: large;
-  }
-
-  .img-responsive{
-    height: 100%;
-    width:100%;
-  }
-
-  .responsive-video{
-    display:block;
-  }
-
-  .responsive-card{
-    height:8em !important;
-    width: 13em !important;
-  }
-
-  .resp-card-2{
-    width:13em !important;
-    height: 13em !important;
-  }
-
-}
-
-@media only screen and(min-width: 432px){
-  .responsive-video{
-    /*display:none*/
+@media only screen and (max-width: 45rem){
+  h1 {
+     font-size: 1.8rem;
   }
 }
+
 
 .font{
   font-family: "radio stars";
@@ -379,8 +362,9 @@ import footerComp from "@/components/footer-comp.vue";
 
 .font-faq{
   font-family: "radio stars";
-  font-size: xx-large;
+  font-size: x-large;
   color: #cd55a0;
+  color: #ea44c3;
 }
 
 .font-2{
@@ -390,8 +374,21 @@ import footerComp from "@/components/footer-comp.vue";
 
 .font-ans{
   font-family: "josefin sans";
-  font-size: xx-large;
+  font-size: large;
   color:#ffffff;
+}
+
+.top-logos .col {
+  text-align: center;
+}
+
+.top-logos img {
+  max-height: 8rem; /* Both logos are large enough in source form to almost certainly be >8rem, so this will always scale them down. */
+  max-width: 100%;  /* Limits logos to .col container. At very small widths, prevents the logos from overlapping. */
+}
+
+.row {
+  margin: unset; /* no-gutters by default */
 }
 
 </style>
