@@ -1,7 +1,7 @@
 <template>
-  <v-app-bar class="navigation" absolute floating flat color="#1b2653">
-    <router-link to="/" class="white--text links">
-      <v-toolbar-title>
+  <v-app-bar class="navigation" flat color="#1b2653">
+    <v-toolbar-title>
+      <router-link to="/" class="white--text links">
         code.run
       </v-toolbar-title>
     </router-link>
@@ -22,8 +22,9 @@ export default {
   text-decoration: none;
 }
 
-.navigation{
-  position:fixed;
+.navigation {
+  position: sticky;
+  display: flex; /* position:sticky automatically makes it inline-flex and breaks its size */
 }
 
 </style>

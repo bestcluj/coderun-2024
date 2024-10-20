@@ -1,16 +1,16 @@
 <template>
   <v-container class="ma-0 pa-0 main-cnt" fluid>
     <NavBar />
-    <v-row class="homepage-bg mt-lg-14" style="padding: 0; margin:0;">
+    <v-row class="homepage-bg">
       <!--    navigation bar-->
 <!--      <NavBar />-->
       <!--    first block of content-->
-      <v-row class="ma-4 mb-0">
+      <v-row class='top-logos'>
         <v-col cols="6">
-          <v-img src="../assets/BESTCJ_signature_white (1).png" style="height:50%; width:50%;"></v-img>
+          <img src="../assets/BESTCJ_signature_white.png" />
         </v-col>
         <v-col cols="6">
-          <v-img src="../assets/UT_Logo_Alb.png" style="height:50%; width:50%;"></v-img>
+          <img src="../assets/UT_Logo_Alb.png" />
         </v-col>
       </v-row>
       <v-row class="ma-0">
@@ -396,6 +396,15 @@ import footerComp from "@/components/footer-comp.vue";
   font-family: "josefin sans";
   /*font-size: xx-large;*/
   color:#ffffff;
+}
+
+.top-logos .col {
+  text-align: center;
+}
+
+.top-logos img {
+  max-height: 8rem; /* Both logos are large enough in source form to almost certainly be >8rem, so this will always scale them down. */
+  max-width: 100%;  /* Limits logos to .col container. At very small widths, prevents the logos from overlapping. */
 }
 
 </style>
