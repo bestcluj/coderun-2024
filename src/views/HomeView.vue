@@ -36,16 +36,27 @@
       <v-row>
 
         <v-col class="font columns ma-3" align-self="center">
-          <h4>Pre-register now.</h4>
+          <h4>Register now.</h4>
         </v-col>
       </v-row>
 
       <!--    register button-->
       <v-row justify="center">
         <v-col class="font columns ma-3">
-          <a href="https://forms.gle/6AAK24Tbv6FsPzTR8" style="text-decoration: none" target="_none"><v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
+          <a href="https://docs.google.com/forms/d/1QBS3IsgoQX6gHiCjyZNnV9MYzTzZ3R6GMar0_25-d5k/edit" style="text-decoration: none" target="_none"><v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
                   style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
             REGISTER HERE</v-card></a>
+        </v-col>
+      </v-row>
+
+      <v-row class="section-2">
+        <v-col class="ma-4">
+          <a href="https://docs.google.com/document/d/1gzKZhfOWwjol-2cyx_jBlwx0ESgWIMQ2/edit?usp=drive_link&ouid=114575871877322760980&rtpof=true&sd=true"
+             target="_none" style="text-decoration: underline; color:white">
+          <v-card outlined dark class="pa-4 elevation-5 font-faq question-glass-bg"
+                  style="border-radius:20px; background-color:rgba(255,255,255, 0%);  display:flex;align-content: center; justify-content: center;">
+            COMPETITION GUIDELINES
+          </v-card></a>
         </v-col>
       </v-row>
       <!--    sectiune video-->
