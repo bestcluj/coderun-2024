@@ -1,18 +1,22 @@
 <template>
   <v-container class="ma-0 pa-0 main-cnt" fluid>
+    <!--    navigation bar-->
     <NavBar />
     <v-row class="homepage-bg">
-      <!--    navigation bar-->
-<!--      <NavBar />-->
       <!--    first block of content-->
+
+<!--      logos-->
       <v-row class='top-logos'>
         <v-col cols="6">
-          <img src="../assets/BESTCJ_signature_white.png" />
+          <a href="https://bestcj.ro/" target="_blank">
+            <img src="../assets/BESTCJ_signature_white.png"></a>
         </v-col>
         <v-col cols="6">
-          <img src="../assets/UT_Logo_Alb.png" />
+          <a href="https://www.utcluj.ro/" target="_blank">
+            <img src="../assets/UT_Logo_Alb.png" /></a>
         </v-col>
       </v-row>
+
       <v-row class="ma-0">
         <v-col class="font columns" align-self="center">
           <h1>Ready to code your way through the urban jungle?</h1>
