@@ -320,31 +320,37 @@ import footerComp from "@/components/footer-comp.vue";
   display:block;
 }
 
-.section-2{
+.section-2.row {
   background-color: #35447f;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.section-2 > .col {
+  max-width: 40rem;
 }
 
 .columns{
   margin-right:0 !important;
   margin-bottom: 0;
   text-align: center;
-  font-size: xx-large;
   align-content:center;
   justify-content: center;
   align-items:center;
   justify-items: center;
   display:flex;
+  font-size: x-large;
 }
 
 .columns-video{
   margin-top: 0;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
-@media only screen and (max-width: 431px){
-  .columns{
-    font-size: large;
+@media only screen and (max-width: 45rem){
+  h1 {
+     font-size: 1.8rem;
   }
 }
 
@@ -356,7 +362,7 @@ import footerComp from "@/components/footer-comp.vue";
 
 .font-faq{
   font-family: "radio stars";
-  font-size: xx-large;
+  font-size: x-large;
   color: #cd55a0;
   color: #ea44c3;
 }
@@ -368,7 +374,7 @@ import footerComp from "@/components/footer-comp.vue";
 
 .font-ans{
   font-family: "josefin sans";
-  /*font-size: xx-large;*/
+  font-size: large;
   color:#ffffff;
 }
 
