@@ -295,13 +295,16 @@ import footerComp from "@/components/footer-comp.vue";
     components: {
       NavBar,
       footerComp
-    },
+    }
   }
 </script>
 
 /*eslint-disable */
 
 <style>
+
+@import url('https://fonts.cdnfonts.com/css/radio-stars');
+@import url('https://fonts.cdnfonts.com/css/josefin-sans');
 
 .homepage-bg{
   background-image: url("../assets/fundal_2.png");
@@ -381,6 +384,7 @@ import footerComp from "@/components/footer-comp.vue";
   font-family: "radio stars";
   font-size: xx-large;
   color: #cd55a0;
+  color: #ea44c3;
 }
 
 .font-2{
@@ -390,7 +394,7 @@ import footerComp from "@/components/footer-comp.vue";
 
 .font-ans{
   font-family: "josefin sans";
-  font-size: xx-large;
+  /*font-size: xx-large;*/
   color:#ffffff;
 }
 

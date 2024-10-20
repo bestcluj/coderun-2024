@@ -1,10 +1,10 @@
 <template>
   <v-app-bar class="navigation" absolute floating flat color="#1b2653">
-    <v-toolbar-title>
-      <router-link to="/" class="white--text links">
+    <router-link to="/" class="white--text links">
+      <v-toolbar-title>
         code.run
-      </router-link>
-    </v-toolbar-title>
+      </v-toolbar-title>
+    </router-link>
   </v-app-bar>
 </template>
 
