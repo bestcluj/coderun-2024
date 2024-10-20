@@ -3,8 +3,8 @@
     <v-toolbar-title>
       <router-link to="/" class="white--text links">
         code.run
-      </v-toolbar-title>
-    </router-link>
+      </router-link>
+    </v-toolbar-title>
   </v-app-bar>
 </template>
 
