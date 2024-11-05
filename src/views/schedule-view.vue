@@ -72,18 +72,18 @@
     </v-row>
 
   </v-row>
-<!--  <footer-comp />-->
+  <footer-comp />
 </v-container>
 </template>
 
 <script>
 import navBar from "@/components/nav-bar.vue";
-// import footerComp from "@/components/footer-comp.vue";
+import footerComp from "@/components/footer-comp.vue";
 export default {
   name: "schedule-view",
   components:{
     navBar,
-    // footerComp
+    footerComp
   }
 }
 </script>
