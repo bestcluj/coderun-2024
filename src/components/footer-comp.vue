@@ -28,6 +28,9 @@
 
       <v-col cols=12 class="text-center mt-4 contactinfo">
         <div>
+          Coordinator: Daria Lăcătușu
+        </div>
+        <div>
           <a href="mailto:daria.lacatusu@bestcj.ro">daria.lacatusu@bestcj.ro</a>
         </div>
         <div>
