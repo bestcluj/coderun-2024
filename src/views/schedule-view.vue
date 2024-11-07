@@ -27,7 +27,7 @@
             beginning 2D Game Programming with SDL 2
           </v-card-text>
           <v-card-text class="font-mic">
-            Nov 8th | 16:00 - 18:00 | Workshop: Intro to Arduino Coding
+            Nov 8th | 18:00 - 20:00 | Workshop: Intro to Arduino Coding
           </v-card-text>
         </v-card>
       </v-col>
@@ -40,13 +40,13 @@
             Nov 11th | 16:00 - 18:00 | Django + Python for Web Development
           </v-card-text>
           <v-card-text class="font-mic">
-            Nov 12th | 16:00 - 20:00 | Your Very Own React Sound Machine by Zenitech
+            Nov 12th | 16:00 - 18:00 | Your Very Own React Sound Machine by Zenitech
           </v-card-text>
           <v-card-text class="font-mic">
             Nov 13th | 16:00 - 18:00 | Pythonic Playground by Cognizant hosted in-person
           </v-card-text>
           <v-card-text class="font-mic">
-            Nov 14th | 16:00 - 20:00 | Identity and Access Management (IAM) by Uniqa Software Services
+            Nov 14th | 16:00 - 18:00 | Identity and Access Management (IAM) by Uniqa Software Services
           </v-card-text>
           <v-card-text class="font-mic">
             TBA | TBA | Workshop: How to Git
@@ -59,14 +59,56 @@
       <v-col class="ma-2 align-center">
         <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                 style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
-          COMPETITION DAY 1:
+          COMPETITION DAY 1 - Nov 16th:
+          <v-card-text class="font-mic">
+            9:00 - 10:00 | Official opening at TUCN - Aula - Faculty of Building Services Engineering
+          </v-card-text>
+          <v-card-text class="font-mic">
+            10:00 - 12:00 | Checkpoint
+          </v-card-text>
+          <v-card-text class="font-mic">
+            12:00 - 13:00 | Transportation & Break
+          </v-card-text>
+          <v-card-text class="font-mic">
+            13:00 - 15:00 | Checkpoint
+          </v-card-text>
+          <v-card-text class="font-mic">
+            15:00 - 16:00 | Lunch Break
+          </v-card-text>
+          <v-card-text class="font-mic">
+            16:00 - 17:00 | Travel Break
+          </v-card-text>
+          <v-card-text class="font-mic">
+            17:00 - 19:00 | Checkpoint
+          </v-card-text>
         </v-card>
       </v-col>
 
       <v-col class="ma-2 align-center">
         <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                 style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
-          COMPETITION DAY 2:
+          COMPETITION DAY 2 - 17th Nov:
+          <v-card-text class="font-mic">
+            9:00 - 10:00 | Sleep & Get Ready
+          </v-card-text>
+          <v-card-text class="font-mic">
+            10:00 - 12:00 | Checkpoint
+          </v-card-text>
+          <v-card-text class="font-mic">
+            12:00 - 13:00 | Transportation & Break
+          </v-card-text>
+          <v-card-text class="font-mic">
+            13:00 - 15:00 | Checkpoint
+          </v-card-text>
+          <v-card-text class="font-mic">
+            15:00 - 16:00| Lunch Break
+          </v-card-text>
+          <v-card-text class="font-mic">
+            16:00 - 17:00 | Travel Break
+          </v-card-text>
+          <v-card-text class="font-mic">
+            17:00 - 19:00 | Checkpoint
+          </v-card-text>
         </v-card>
       </v-col>
     </v-row>
