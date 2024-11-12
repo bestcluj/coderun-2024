@@ -36,16 +36,19 @@
       <v-row>
 
         <v-col class="font columns ma-3" align-self="center">
-          <h4>Register now.</h4>
+          <h4>Registrations have been closed. See you next year!</h4>
         </v-col>
       </v-row>
 
       <!--    register button-->
       <v-row justify="center">
         <v-col class="font columns ma-3">
-          <a href="https://docs.google.com/forms/d/1QBS3IsgoQX6gHiCjyZNnV9MYzTzZ3R6GMar0_25-d5k/edit" style="text-decoration: none" target="_none"><v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
+<!--          REGISTRATIONS ARE CLOSED-->
+<!--          <a href="https://docs.google.com/forms/d/1QBS3IsgoQX6gHiCjyZNnV9MYzTzZ3R6GMar0_25-d5k/edit" style="text-decoration: none" target="_none">-->
+            <v-card outlined link dark class="pa-6 elevation-5" color="#5d3d94"
                   style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-            REGISTER HERE</v-card></a>
+            REGISTRATIONS CLOSED.</v-card>
+<!--          </a>-->
         </v-col>
       </v-row>
 
@@ -307,7 +310,8 @@
         <v-col class="font-ans ma-4">
           <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                   style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-            Keep an eye on our website or BEST Cluj-Napoca’s Instagram page (@best_clujnapoca). Registrations will open soon!</v-card>
+            For now, the registration period has ended. Keep an eye on our website or BEST Cluj-Napoca’s Instagram page (@best_clujnapoca) for announcements and information.
+          Thank you for registering.</v-card>
         </v-col>
       </v-row>
 
