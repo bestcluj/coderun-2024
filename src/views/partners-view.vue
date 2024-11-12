@@ -39,7 +39,7 @@
         <v-col sm="12" lg="4" class="ma-2 align-center">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
-            <img style="height:90%; width:90%" src="../assets/xanny.svg" />
+            <img style="height:90%; width:90%" src="../assets/zenitech.svg" />
             <v-card-text class="font-mic">
             We design, deliver and implement creative technologies that have real impact on businesses – driving growth, transforming customer experience,
             improving efficiency, reducing time to market and innovating for the future. Learn more about us by visiting our
