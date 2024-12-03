@@ -14,8 +14,8 @@
         </v-col>
       </v-row>
 
-      <v-row>
-        <v-col sm="12" lg="4" class="ma-2 align-center">
+      <v-row class="partners">
+        <v-col sm="12" md="5" lg="3" class="ma-2">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg white--text"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
             <img style="height:90%; width:90%" src="../assets/cognizant.png" />
@@ -36,10 +36,10 @@
           </v-card>
         </v-col>
 
-        <v-col sm="12" lg="4" class="ma-2 align-center">
+        <v-col sm="12" md="5" lg="3" class="ma-2">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
-            <img style="height:90%; width:90%" src="../assets/xanny.svg" />
+            <img style="height:90%; width:90%" src="../assets/zenitech.svg" />
             <v-card-text class="font-mic">
             We design, deliver and implement creative technologies that have real impact on businesses – driving growth, transforming customer experience,
             improving efficiency, reducing time to market and innovating for the future. Learn more about us by visiting our
@@ -54,10 +54,8 @@
             </v-card-text>
           </v-card>
         </v-col>
-      </v-row>
 
-      <v-row>
-        <v-col class="ma-2 align-center">
+        <v-col sm="12" md="5" lg="3" class="ma-2">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
             <img style="height:90%; width:90%" src="../assets/uniqa.jpg" />
@@ -72,9 +70,6 @@
               We work from our modern offices in central Cluj-Napoca, where our team members benefit from a collaborative culture,
               an ‘open door’ management policy and superb employee benefits. Learn more by visiting our
               <a style="color:cyan" href="https://www.uniqasoftware.ro/" target="_blank">website!</a>
-            </v-card-text>
-            <v-card-text class="font-mic">
-
             </v-card-text>
           </v-card>
         </v-col>
@@ -150,6 +145,16 @@ export default {
 .font-mic{
   font-family: "Josefin Sans";
   font-size: large;
+}
+
+.partners {
+  align-items: start;
+  justify-items: center;
+  justify-content: center;
+}
+
+.col .v-card {
+  margin: auto;
 }
 
 </style>
