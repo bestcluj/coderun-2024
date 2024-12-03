@@ -181,7 +181,11 @@ export default {
 }
 
 .col .v-card {
-  margin: auto;
+  text-align:center;
+}
+
+.col .v-card img {
+  border-radius: unset !important;
 }
 
 </style>
