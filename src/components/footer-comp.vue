@@ -1,6 +1,6 @@
 <template>
   <v-footer light class="footer">
-    <v-row justify="center" no-gutters>
+    <v-row justify="center" no-gutters class="font">
 
       <v-btn
           text
@@ -57,6 +57,11 @@ name: "footer-comp"
 .footer{
   background-color: #e6acce;
   /*margin-bottom:0 !important;*/
+}
+
+.font{
+  font-family: "Josefin Sans";
+  color: black;
 }
 
 
