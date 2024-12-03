@@ -14,6 +14,8 @@
         </v-col>
       </v-row>
 
+<!--      COGNIZANT-->
+
       <v-row class="partners">
         <v-col sm="12" md="5" lg="3" class="ma-2">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg white--text"
@@ -36,6 +38,8 @@
           </v-card>
         </v-col>
 
+<!--        ZENITECH-->
+
         <v-col sm="12" md="5" lg="3" class="ma-2">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
@@ -55,6 +59,8 @@
           </v-card>
         </v-col>
 
+<!--        UNIQA-->
+
         <v-col sm="12" md="5" lg="3" class="ma-2">
           <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
@@ -73,6 +79,27 @@
             </v-card-text>
           </v-card>
         </v-col>
+
+        <v-row style="display:flex; align-items: center;justify-items: center; align-content: center; justify-content: center">
+          <!--        GUSTADOR-->
+
+          <v-col sm="12" md="5" lg="3" class="ma-2">
+            <!--          <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"-->
+            <!--                  style="border-radius:20px; background-color:rgba(255,255,255, 0%);">-->
+            <a style="text-decoration:none" href="https://www.facebook.com/GustadorRomania/?locale=ro_RO" target="_blank"><img style="height:90%; width:90%" src="../assets/gustador.png" /></a>
+            <!--          </v-card>-->
+          </v-col>
+
+          <!--        USED PRODUCTS-->
+
+          <v-col sm="12" md="5" lg="3" class="ma-2">
+            <!--          <v-card outlined dark class="pa-8 elevation-5 font-faq question-glass-bg"-->
+            <!--                  style="border-radius:20px; background-color:rgba(255,255,255, 0%);">-->
+            <a style="text-decoration:none" href="https://usedproducts.ro/" target="_blank"><img style="height:90%; width:90%" src="../assets/used-prods.png" /></a>
+            <!--          </v-card>-->
+          </v-col>
+        </v-row>
+
 
       </v-row>
 
