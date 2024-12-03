@@ -49,7 +49,7 @@
             Nov 14th | 16:00 - 18:00 | Identity and Access Management (IAM) by Uniqa Software Services
           </v-card-text>
           <v-card-text class="font-mic">
-            TBA | TBA | Workshop: How to Git
+            Nov 16th | 16:00 | Workshop: How to Git
           </v-card-text>
         </v-card>
       </v-col>

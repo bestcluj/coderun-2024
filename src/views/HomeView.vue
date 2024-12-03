@@ -125,7 +125,7 @@
         <v-col class="font-faq ma-4">
           <v-card outlined dark class="pa-4 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
-            #2 WHEN AND WHERE DOES CODERUN TAKE PLACE?
+            #2 WHEN AND HAS DOES CODERUN TAKEN PLACE?
           </v-card>
         </v-col>
       </v-row>
@@ -192,7 +192,7 @@
         <v-col class="font-faq ma-4">
           <v-card outlined dark class="pa-4 elevation-5 font-faq question-glass-bg"
                   style="border-radius:20px; background-color:rgba(255,255,255, 0%);">
-            #5 WHO WILL JUDGE THE COMPETITION?
+            #5 WHO ARE THE JUDGES OF THE COMPETITION?
           </v-card>
         </v-col>
       </v-row>
@@ -203,7 +203,7 @@
         <v-col class="font-ans ma-4">
           <v-card outlined dark class="pa-6 elevation-5" color="#5d3d94"
                   style="border-color: #ffffff; border-bottom-width: 2rem; border-top-width: 1rem;border-right-width: 1rem;border-left-width: 1rem; border-radius:20px">
-            The jury will consist of representatives from partner companies, a professor from the Technical University of Cluj-Napoca
+            The will consists of representatives from partner companies, a professor from the Technical University of Cluj-Napoca
             and a professor from the Babeș-Bolyai University.</v-card>
         </v-col>
       </v-row>
